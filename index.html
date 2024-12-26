@@ -1,4 +1,4 @@
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 				<link rel="stylesheet" type="text/css" href="typeface.css">
@@ -7,6 +7,7 @@
 				<meta name="APX201" content="掉渣田官方网站•FSF">
 				<title>掉渣田官方网站•FSF</title>
 				<style>
+
 /* 之前的矩形样式 */
 .custom-rectangle {
     width: 910px;
@@ -18,7 +19,8 @@
     border-bottom: 5px solid white;
     position: relative;
     overflow: hidden;
-    margin:auto;     /*居中div*/
+    margin:auto;    
+     /*居中div*/
 }
 
 /* 图片轮播样式 */
@@ -52,6 +54,7 @@ a {
             background-color: #E7E8EC;
             z-index: -1;
         }
+        
         .gray-rectangle {
             position: absolute;
             top: 80px; /* 在灰色矩形下方 */
@@ -59,7 +62,8 @@ a {
             width: 100%;
             height: 3px;
             background-color: E7E8EC;
-            z-index: -2; /* 确保它在灰色矩形下方 */
+            z-index: -2; 
+            /* 确保它在灰色矩形下方 */
         }
          
         .black-rectangle {
@@ -69,8 +73,10 @@ a {
             width: 100%;
             height: 15px;
             background-color: #919091;
-            z-index: -3; /* 确保它在浅灰矩形下方 */
+            z-index: -3; 
+            /* 确保它在浅灰矩形下方 */
         }
+        
         .blue2-rectangle {
             position: absolute;
             top: 5417;
@@ -80,6 +86,7 @@ a {
             background-color: #48494B;
             z-index: -1;
         }
+        
         .gray2-rectangle {
             position: absolute;
             top: 5414; /* 在灰色矩形下方 */
@@ -87,8 +94,10 @@ a {
             width: 100%;
             height: 3px;
             background-color: gray;
-            z-index: -2; /* 确保它在灰色矩形下方 */
-        }         
+            z-index: -2; 
+            /* 确保它在灰色矩形下方 */            
+        }   
+              
         .black2-rectangle {
             position: absolute;
             top: 5402; /* 在浅灰矩形下方 */
@@ -96,30 +105,47 @@ a {
             width: 100%;
             height: 15px;
             background-color: #313234;
-            z-index: -3; /* 确保它在浅灰矩形下方 */
+            z-index: -3; 
+            /* 确保它在浅灰矩形下方 */
         }
         
-        
     </style>
+    <style type="text/css">
+	 	@font-face {
+				font-family:'MinecraftTen-VGORe';
+				src: url(MinecraftTen-VGORe.ttf);
+			}
+			.Minecraft字体{
+				font-family: 'MinecraftTen-VGORe';
+				font-size: 50px;
+				text-shadow: none;
+			}
+	 	@font-face {
+				font-family:'Minecraft字体';
+				src: url(Minecraft字体.ttf);
+			}
+			.MinecraftTen-VGORe{
+				font-family: 'Minecraft字体';
+				font-size: 50px;
+				text-shadow: none;
+			}
+</style>
 </head>
+<body>				
+<div class="background-image"></div>				 
+<div class="overlay"></div>     
+<div class="content"></div>
 
-<body>
-				                
-<!--  
-<HR align=center width=1500 color=green SIZE=3 >
- -->
-
-    <div class="background-image"></div>				 
-    <div class="overlay"></div>     
-    <div class="content"></div>
-
-	<table>
+<table>
    <tr>
-     <td><a href="https://armt.072211.xyz" target="_blank" ><img src="https://armt.072211.xyz/dztlogo.png" width="60" height="60" class="no-change"></a>
+   				
+     <td>
+     		<a href="https://apx201.github.io/fsf" target="_blank" ><img src="dztlogo.png" width="60" height="60" class="no-change"></a>
      </td>
      <td>
 				<p style="font-size:50px;font-family:Minecraft字体;color:white">掉渣田•FSF</p>	
      </td>
+     
   </tr>
 </table>               
 
@@ -128,8 +154,8 @@ a {
 <div class="black-rectangle"></div>
 <div style="height: 80px;"></div>
 <div class="custom-rectangle">
-    <div class="carousel" id="carousel">
-    </div>
+<div class="carousel" id="carousel">
+</div>
 </div>
 
 <script>
@@ -165,48 +191,22 @@ setInterval(updateCarousel, 4000);
 initializeCarousel();
 </script>
           
-<!-- 轮播图片 -->           
-<style type="text/css">
-	 	@font-face {
-				font-family:'MinecraftTen-VGORe';
-				src: url(MinecraftTen-VGORe.ttf);
-			}
-			.Minecraft字体{
-				font-family: 'MinecraftTen-VGORe';
-				font-size: 50px;
-				text-shadow: none;
-			}
-	 	@font-face {
-				font-family:'Minecraft字体';
-				src: url(Minecraft字体.ttf);
-			}
-			.MinecraftTen-VGORe{
-				font-family: 'Minecraft字体';
-				font-size: 50px;
-				text-shadow: none;
-			}
-</style>
-
 <div style="height: 5px;"></div>
-
 <!-- sidebar侧滑栏 -->
 <button id="menu-button" class="button-style">≡</button>
-
+<!-- 侧滑栏内容 -->
 <div id="sidebar" class="sidebar-style">
 				<p style="font-family:Minecraft字体;font-size:40px">&nbsp掉渣田FSF</p>
-  <!-- 侧滑栏内容 -->
     <a href="https://github.com/2022001111/2022001111.github.io">
-    				<p style="font-family:Minecraft字体;font-size:30px">&nbsp项目地址</p>
-    </a>
-    <a href="https://armt.072211.xyz/jumps/APP.html"><p style="font-family:Minecraft字体;font-size:30px">&nbsp应用获取</p></a>
+    <p style="font-family:Minecraft字体;font-size:30px">&nbsp项目地址</p></a>
+    <a href="https://apx201.github.io/fsf/jumps/APP.html"><p style="font-family:Minecraft字体;font-size:30px">&nbsp应用获取</p></a>
     <a href="https://www.123pan.com/s/Agx4jv-qDZzv.html"><p style="font-family:Minecraft字体;font-size:30px">&nbsp键位获取</p></a>
     <a href="mailto:2142258771@qq.com"><p style="font-family:Minecraft字体;font-size:30px">&nbsp邮箱反馈</p></a>&nbsp
     <img class="image-container2" src="images/xiaofei.png" alt="消费">
 </div>
 
-
+<!--悬浮按钮-->
 <button id="top-button" class="button-style">⬆</button>
-
 <script>
 document.getElementById('top-button').onclick = function() {
     window.scrollTo({
@@ -216,7 +216,6 @@ document.getElementById('top-button').onclick = function() {
 };</script>
 
 <a href="link-html/update-log/index.html"><button id="mbe-button" class="button-style">M</button></a>
-
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -245,25 +244,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-
 </script>
-
-
+<!-- 消息弹窗 -->
+<!--
 <div class="custom-modal-background">
     <div class="top-border">
-      <span class="close">x</span>
+       <span class="close">x</span>
     </div>
     <div class="middle">
-    		<div class="img-container">
-        <img class="window-img" src="images/year.jpg" style="width:40%; height:auto;">
-      </div>
-        <p style="font-family:Minecraft字体;font-size:30px">今天是仿基岩版控制器一周年！</p>
-        
+    		 <div class="img-container">
+       <img class="window-img" src="images/year.jpg" style="width:40%; height:auto;">
+    </div>
+    <p style="font-family:Minecraft字体;font-size:30px">今天是仿基岩版控制器一周年！</p>
     </div>
     <div class="bottom-border"></div>
 </div>
-
-
+ 
 <script>
     // 获取模态窗口
     var modal = document.querySelector('.custom-modal-background');
@@ -290,9 +286,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 </script>
+-->
 
 <div style="height: 60px;"></div>
-
 <p class="text-with-background" style="text-align: center;font-size:50px;">相关链接</p>
 
 <!--
@@ -334,6 +330,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <td><a href="https://weibo.com/u/7879006938" id="myLink"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
     </tr>
     <tr>
+      <td><img src="images/youtobe.png" alt=" " width="30" height="30"></td>
+      <td><p style="font-family:Minecraft字体;font-size:30px">Youtobe主页</p></td>
+      <td><a href="https://www.youtube.com/@Apeng-22001" id="myLink"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
+    </tr>
+    <tr>
       <td><img src="images/mgggw.jpg" alt=" " width="30" height="30"></td>
       <td><p style="font-family:Minecraft字体;font-size:30px">妙狗国国王官网</p></td>
       <td><a href="https://xluofox.us.kg" id="myLink"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
@@ -365,16 +366,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
   <table border="0">
     <tr>
-      <td><p style="font-family:Minecraft字体;font-size:30px">云湖社区</p></td>
+    	 <td><img src="images/yh.png" alt=" " width="30" height="30"></td>
+      <td><p style="font-family:Minecraft字体;font-size:30px">云湖社区(已废弃)</p></td>
       <td><a href="https://www.yhchat.com/group/homepage/485371270?userId=4298982"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
     </tr>
         <tr>
+      <td><img src="images/QQ.png" alt=" " width="30" height="30"></td>
       <td><p style="font-family:Minecraft字体;font-size:30px">QQ频道</p></td>
       <td><a href="https://pd.qq.com/s/7g7aomjpv"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
     </tr>
     <tr>
-      <td><p style="font-family:Minecraft字体;font-size:30px">QQ群聊</p></td>
+    			<td><img src="images/QQ.png" alt=" " width="30" height="30"></td>
+      <td><p style="font-family:Minecraft字体;font-size:30px">QQ群聊(CN区)</p></td>
       <td><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=GXe85-BhRA_-xJgzTdQz4Gbs6Jj1bh_j&authKey=56yqe6M4%2FhnAdewv38rp%2BfMHtiL21cUidNeETdDMHhK08AdZq1i61aRUWF6Oa8Ga&noverify=0&group_code=375308994"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
+    </tr>
+    <tr>
+    	 <td><img src="images/discord.png" alt=" " width="30" height="30"></td>
+      <td><p style="font-family:Minecraft字体;font-size:30px">Discord</p></td>
+      <td><a href="https://discord.gg/kdjMnZry"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
     </tr>
   </table>
 
@@ -384,15 +393,15 @@ document.addEventListener('DOMContentLoaded', function() {
 				<tr>
 							 <td><img src="images/traffic-logo.png" alt=" " width="30" height="30"></td>
 							 <td><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=iMysqIWAS0dKMNrQq_UnftSl9QPNQ_Gx&authKey=B2uRTZ2MrCpgS7nMXwjcq5LmaMqMx4EJTyzVnTSJiG3AfOqIo2kGKWte6ngMAkwR&noverify=0&group_code=966234858" 
-target="_blank" title=" " style="font-family:Minecraft字体;color:orange;;font-size:25px;">MC Traffic 建设团队 【Q群966234858】<br></a></td>
+target="_blank" title=" " style="font-family:Minecraft字体;color:white;font-size:30px;">MC Traffic 建设团队</a></td>
+        <td><p style="font-family:Minecraft字体;color:white;font-size:30px;">Q群966234858</p></td>
+        
     </tr>
-</table>
-
-<table>
 				<tr>
 							 <td><img src="images/armt-logo.png" alt=" " width="30" height="30"></td>
 								<td><a href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=0IRoQaVIMk1gHNV0Wl4I1mKPVKwuQ72O&authKey=UM513U%2F0cOpG%2F7riLcUuxKmqBl1r7%2BBrcNT5HS4fVR5JpYNRE3BSqbc0hXFWyCJz&noverify=0&group_code=935292850" 
-target="_blank" title=" " style="font-family:Minecraft字体;color:orange;font-size:25px;">MC AR麦铁铁路建设团队 【Q群935292850】</a></td>
+target="_blank" title=" " style="font-family:Minecraft字体;color:white;font-size:30px;">MC AR麦铁铁路建设团队 </a></td>
+        <td><p style="font-family:Minecraft字体;color:white;font-size:30px;">Q群935292850</p></td>
     </tr>
 </table>
 
@@ -401,19 +410,19 @@ target="_blank" title=" " style="font-family:Minecraft字体;color:orange;font-s
 
   <table border="0">
     <tr>
-      <td><p style="font-family:Minecraft字体;font-size:30px">下载官方APP</p></td>
+      <td><p style="font-family:Minecraft字体;font-size:30px">⇩ 下载官方APP</p></td>
       <td><a href="https://www.123pan.com/s/Agx4jv-EXczv.html"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
     </tr>
         <tr>
-      <td><p style="font-family:Minecraft字体;font-size:30px">下载键位海报</p></td>
+      <td><p style="font-family:Minecraft字体;font-size:30px">⇩ 下载键位海报</p></td>
       <td><a href="https://gitdl.cn/https://raw.githubusercontent.com/2022001111/22001picture/main/1719738754975.png"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
     </tr>
     <tr>
-      <td><p style="font-family:Minecraft字体;font-size:30px">下载仿基岩版键位（MBE）</p></td>
+      <td><p style="font-family:Minecraft字体;font-size:30px">⇩ 下载仿基岩版键位（MBE）</p></td>
       <td><a href="https://www.123pan.com/s/Agx4jv-qDZzv.html"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
     </tr>
         <tr>
-      <td><p style="font-family:Minecraft字体;font-size:30px">下载仿基岩修改版键位（MBE-UM）</p></td>
+      <td><p style="font-family:Minecraft字体;font-size:30px">⇩ 下载仿基岩修改版键位（MBE-UM）</p></td>
       <td><a href="https://vip.123pan.cn/1825094531/7185147"><img src="images/ore-jump-to.png" alt="点击跳转" height="60" width="60"></a></td>
     </tr>
         <tr>
@@ -480,7 +489,7 @@ target="_blank" title=" " style="font-family:Minecraft字体;color:orange;font-s
     </tr>
     <tr>
     				<td>
-    								<a href="https://armt.072211.xyz/images/FSF披风.png"><button class="button-style" >立即获取</button></a>
+    								<a href="https://apx201.github.io/fsf/images/FSF披风.png"><button class="button-style" >立即获取</button></a>
     				</td>
     				<td>
     								<a href="mailto:2142258771@qq.com"><button class="button-style" onclick="Getbutton()">邮箱获取</button></a>
@@ -494,7 +503,7 @@ target="_blank" title=" " style="font-family:Minecraft字体;color:orange;font-s
 
  <script>
         function Getbutton() {
-            alert('请在【社区管理条约】中查找资源获取协议并签署\n私信邮箱：2142258771@qq.com \n \n Light披风:\n发送“FSF披风”并附带资源获取协议签名截图发送到邮箱，审核有效即可获取（等待回复）\n【限定20份】\n\nMBE周年披风： \n 发送“MBE生日快乐！”并附带MBE任意界面使用截图即可获取（等待回复）');
+            alert('请在【社区管理条约】中查找资源获取协议并签署\n私信邮箱：2142258771@qq.com \n \n Dark披风:\n发送“FSF披风”并附带资源获取协议签名截图发送到邮箱，审核有效即可获取（等待回复）\n【限定20份】\n\nMBE周年披风： \n 发送“MBE生日快乐！”并附带MBE任意界面使用截图即可获取（等待回复）');
         }
 </script>
     </br></br>
@@ -549,25 +558,11 @@ class="button-style" style="width: auto;height: auto;color: black;">在MCBE中�
 <p style="font-family:Minecraft字体">贪吃蛇 框架提供：LZY OreUi：APX201</p>   
 <a href="link-html/snake/snake.html" style="color: black;"><button                                class="button-style" style="width: auto;height: auto;color: black;">进入在线游戏</button></a>          
                                 
-<a href="https://armt.072211.xyz/link-html/phone/index.html"><p class="text-with-background" style="text-align: center;font-size:12px;">进入手机版</p></a>
+<a href="https://apx201.github.io/fsf/link-html/phone/index.html"><p class="text-with-background" style="text-align: center;font-size:12px;">进入手机版</p></a>
 
 
 <!-- /////下方内容///// -->
-
-<!--
-<a href="https://armt.072211.xyz/">
-
- <img src="https://armt.072211.xyz/images/new-dztlogo.png" alt="Centered Image" class="no-change" Width="" height=""> 
-
-</a>
--->
-								
-<!--<HR align=center width=100% color=green SIZE=3 >-->
-
 <br> <br>
-
-
-				
 <table>
   <tr>
   			<td>
@@ -577,34 +572,26 @@ class="button-style" style="width: auto;height: auto;color: black;">在MCBE中�
      </td>
    </tr>
 </table>
-
- <script src="main.js"></script>
- 
-  <!-- 音频文件预加载 -->
-    <audio id="sound1" src="eat.mp3" preload="auto"></audio>
-    <audio id="sound2" src="Q.mp3" preload="auto"></audio>
-    <audio id="sound3" src="aqtw.mp3" preload="auto"></audio>
+<script src="main.js"></script>
+<!-- 音频文件预加载 -->
+    <audio id="sound1" src="Audios/eat.mp3" preload="auto"></audio>
+    <audio id="sound2" src="Audios/Q.mp3" preload="auto"></audio>
+    <audio id="sound3" src="Audios/aqtw.mp3" preload="auto"></audio>
 <div class="blackRectangle"></div>
-
-    <!-- 按钮，点击后播放不同的音频 -->
+<!-- 按钮，点击后播放不同的音频 -->
     <button class="button-style" id="button1" onclick="playSound('sound1')">Don't click</button>
     <button class="button-style" id="button2" onclick="playSound('sound2')">Don't click</button>
     <button class="button-style" id="button3" onclick="playSound('sound3')">Don't click</button>
-
-    <p>&nbsp</p>
-
-
+<p>&nbsp</p>
 <p class="text-with-background" style="text-align: center;font-size:1px;">&nbsp</p>
-
-
-    <script>
+<script>
         // JavaScript函数，用于播放音频
         function playSound(soundId) {
             var audio = document.createElement('audio');
             audio.src = document.getElementById(soundId).src;
             audio.play();
         }
-    </script>
+</script>
     
 <a href="link-html/warning/index.html"><p style="color:red;font-size:30px"><i>[⚠️]</p></a>
 <!--
@@ -613,11 +600,14 @@ class="button-style" style="width: auto;height: auto;color: black;">在MCBE中�
         <p>您的浏览器不支持 iframe，但您可以通过以下链接访问目标网页：<a href="https://xluofox.us.kg">访问示例网站</a></p>
     </iframe>
     -->
-
 <style>   
-				 .gray-italic-text {        color: gray; /* 设置文本颜色为灰色 */        font-style: italic; /* 设置文本为斜体 */    }
+				 .gray-italic-text {        
+				      color: gray; 
+				      /* 设置文本颜色为灰色 */                                 
+				      font-style: italic; 
+				      /* 设置文本为斜体 */    
+				 }
 </style>
-  
 <p class="gray-italic-text"> <br> <br> <br>-联系我们-
 <br>QQ:2142258771
 <br>邮箱：2142258771@qq.com
@@ -640,6 +630,7 @@ class="button-style" style="width: auto;height: auto;color: black;">在MCBE中�
 
 <div style="height: 5px;"></div>
 
+<!--
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const characters = ['🟩', 'BE', '⬜️', '⬛️', 'M'];
@@ -661,8 +652,8 @@ class="button-style" style="width: auto;height: auto;color: black;">在MCBE中�
         }
     });
 </script>
-
-            <script>
+-->
+<script>
                 function redirectBasedOnDevice() {
                     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                         if (confirm("是否跳转手机版？")) {
@@ -671,7 +662,7 @@ class="button-style" style="width: auto;height: auto;color: black;">在MCBE中�
                     }
                 }
                 redirectBasedOnDevice();
-            </script>
+</script>
 <!--<script>
     function redirectBasedOnDevice() {
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
